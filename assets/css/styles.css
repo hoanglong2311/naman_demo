@@ -366,6 +366,10 @@ the website, in dark theme
   transform: translateX(.25rem);
 }
 
+.naman_logo{
+  width: 10%;
+  height: 10%;
+}
 /*=============== BUTTONS ===============*/
 .button{
   display: inline-block;
