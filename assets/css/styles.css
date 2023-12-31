@@ -8,7 +8,8 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 152;
-  --first-color: hsl(var(--hue), 24%, 32%);
+  /* --first-color: hsl(var(--hue), 24%, 32%); */
+  --first-color: hsl(0, 94%, 69%);
   --first-color-alt: hsl(var(--hue), 24%, 28%);
   --first-color-light: hsl(var(--hue), 24%, 66%);
   --first-color-lighten: hsl(var(--hue), 24%, 92%);
@@ -21,8 +22,8 @@
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: 'Poppins', sans-serif;
-  --big-font-size: 2rem;
-  --h1-font-size: 1.5rem;
+  --big-font-size: 0.5rem;
+  --h1-font-size: 1.0rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
   --normal-font-size: .938rem;
@@ -50,7 +51,7 @@
 /* Responsive typography */
 @media screen and (min-width: 968px) {
   :root {
-    --big-font-size: 3.5rem;
+    --big-font-size: 3.0rem;
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
@@ -309,7 +310,12 @@ the website, in dark theme
 }
 
 .home__img{
-  width: 200px;
+  width: 400px;
+  justify-self: center;
+}
+
+.home_img_naman{
+  width: 500px;
   justify-self: center;
 }
 
@@ -975,7 +981,7 @@ the website, in dark theme
     padding: 13rem 0 5rem;
   }
   .home__img{
-    width: 350px;
+    width: 600px;
   }
   .home__description{
     padding-right: 7rem;
